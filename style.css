@@ -334,12 +334,18 @@ body {
 .blog {
   margin-bottom: 30px;
 }
+.responsive{
+  padding-right: 0;
+}
 .responsive ul {
+  display: flex;
   flex-direction: column ;
   align-items: center;
+  padding-right: 0;
 }
 .responsive ul li {
   padding-bottom: 30px;
+ 
 }
 
 /* Tablet-Device */
@@ -436,6 +442,9 @@ body {
     visibility: visible;
   }
   /* foote-responsive */
+  .footer-menu{
+    padding-right: 0px;
+  }
   .footer-menu ul {
     flex-direction: row;
     flex-wrap: wrap;
@@ -476,4 +485,8 @@ body {
   .transfers{
     grid-template-columns: repeat(2, 1fr);
   }
+  }
+  .footer-menu ul{
+    flex-direction: row !important;
+   
   } 
