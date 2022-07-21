@@ -1,0 +1,223 @@
+/* cpmmon styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+}
+#container-fluid{
+   width: 100%;
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+/* banner-styles */
+.banner{
+    margin-top: 50px;
+    background-image: url(images/img/banner-stadium.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.banner img{
+    margin-bottom: -4px;
+}
+.banner-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 44px 0 40px;
+}
+.banner-heading{
+    width: 40%;
+}
+.banner-heading h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.banner-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.banner-btn{
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.arrow{
+    margin-left: 10px;
+}
+.banner-image{
+    width: 40%;
+    text-align: right;
+}
+.banner-image img{
+    width: 100%;
+}
+.small-nav-matchs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.small-nav{
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: #34495e;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 40px;
+}
+.upcoming{
+    background-color: #DD0000;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.upcoming a{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.group{
+    background: #ffffff;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px; 
+}
+.group a{
+    text-decoration: none;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog{
+   background-color: #ffffff;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px; 
+}
+.blog a{
+    color: #161616;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.match-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+   
+}
+.match-shedeul{
+  width: 300px;
+  height: 242px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 50px 30px;
+  text-align: center;
+}
+.contries-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.match-info h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color:#161616;
+}
+.match-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#4D4D4D;
+}
+/* footer-styels */
+
+.footer{
+    display: flex;
+    width: 100%;
+    padding: 100px 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #161616;
+}
+.footer-info{
+    width: 75%;
+    margin: 0 auto;
+  
+}
+.footer-info h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ffffff26;
+    
+}
+.footer-menu{
+    padding-top: 50px;
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-menu ul li{
+    list-style: none;
+    
+}
+.footer-menu ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+   color: #B9B9B9;
+}
+.transfer-icons p{
+    opacity: .7;
+}
+/* social-icons-styles */
+.social-icon{
+    background-color: #34495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 10px;
+  
+  }
+  .social-icon a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    padding-right: 30px;
+  }
+
